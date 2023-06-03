@@ -133,7 +133,9 @@ background-color: #404BBF ;
 }
 
 .link-portfolio:hover,
-.link-portfolio:focus
+.link-portfolio:focus {
+    
+}
 
 
 .component-list {
@@ -826,6 +828,7 @@ border-radius: 0px 0px 4px 4px
     flex-direction: column;
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -863,7 +866,7 @@ border-radius: 0px 0px 4px 4px
     height: 100%;
     width: 100%;
     top: 0;
-    transform: translateY(100%);
+    transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
