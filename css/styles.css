@@ -871,7 +871,7 @@ border-radius: 0px 0px 4px 4px
 }
 
 .item-portfolio:hover .overlay-portfolio-text {
-    transform: translateY(0);
+    transform: translateY(0%);
   }
 
 .link-portfolio {
@@ -899,10 +899,15 @@ border-radius: 0px 0px 4px 4px
 
                 /* Portfolio-item overlay */
 
+.link-potfolio {
+    position: relative;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
 .link-potfolio:hover,
 .link-potfolio:focus {
     transform: translateY(0%);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 /* ================/MAIN-portfolio=================== */
 /* ================MODAL=================== */
