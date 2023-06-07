@@ -549,11 +549,12 @@ border-radius: 0px 0px 4px 4px
 .border-link-icon:hover,
 .border-link-icon:focus {
     border-color: #404BBF;
-    color: #404bbf; 
+    color: #404bbf;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1) 
 }
 
-.border-link-icon:hover .customers-icon,
-.border-link-icon:focus .customers-icon {
+ .customers-icon:hover,
+ .customers-icon:focus {
     fill: #404BBF;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
